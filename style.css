@@ -84,7 +84,7 @@ main img {
 }
 
 main p {
-    margin-top: 20px;
+    margin: 20px 0px;
     font-family: var(--basiquefont);
 }
 
@@ -98,7 +98,10 @@ footer {
     background-color: black;
 }
 
-footer img {}
+footer img {
+    width: 5%;
+    margin-top: 20px;
+}
 
 footer p {
     text-transform: capitalize;
